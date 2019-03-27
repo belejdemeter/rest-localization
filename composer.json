@@ -1,0 +1,30 @@
+{
+    "name": "belejdemeter/rest-localization",
+    "version": "1.0.2",
+    "keywords": [
+        "localization",
+        "laravel",
+    ],
+    "description": "Localization service provider for Lumen (Laravel) REST APIs",
+    "require": {
+        "illuminate/support": "^5.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "demeterbelej",
+            "email": "demeterbelej@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Services\\Localization\\": "src"
+        }
+    },
+}
